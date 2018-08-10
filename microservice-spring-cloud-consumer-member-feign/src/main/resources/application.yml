@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: dev
+Rest:
+  URL:
+   PREFIX: http://localhost:8081/api/member/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

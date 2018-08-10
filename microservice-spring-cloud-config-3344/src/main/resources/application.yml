@@ -1,0 +1,29 @@
+server:
+  port: 3344
+
+spring:
+  resources:
+    static-locations: file:${server.uploadpath}
+  jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=UTF-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    minIdle: 2
+    maxAction: 20
+    maxWaitMillis: 8000
+  application:
+    name: microservice-config
+  cloud:
+    config:
+      server:
+        git:
+          uri:   https://github.com/zhai926/microservice-spring-cloud-config.git
+          username: zhai926
+          password: zhai5201314
+          strict-host-key-checking:  false   # 如果使用用户名密码登陆这句话必须要有
+          timeout: 800000

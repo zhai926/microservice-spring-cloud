@@ -1,0 +1,17 @@
+spring:
+  resources:
+    static-locations: file:${server.uploadpath}
+  jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=UTF-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    minIdle: 2
+    maxAction: 20
+    maxWaitMillis: 8000
+  application:
+    name: microservice-config-member-client

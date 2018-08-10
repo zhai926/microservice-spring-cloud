@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-api/microservice-spring-cloud-api.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-api/microservice-spring-cloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-config-3344/microservice-spring-cloud-config-3344.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-config-3344/microservice-spring-cloud-config-3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-config-client-3355/microservice-spring-cloud-config-client-3355.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-config-client-3355/microservice-spring-cloud-config-client-3355.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-consumer-hystrix-dashboard/microservice-spring-cloud-consumer-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-consumer-hystrix-dashboard/microservice-spring-cloud-consumer-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-consumer-member-80/microservice-spring-cloud-consumer-member-80.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-consumer-member-80/microservice-spring-cloud-consumer-member-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-consumer-member-feign/microservice-spring-cloud-consumer-member-feign.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-consumer-member-feign/microservice-spring-cloud-consumer-member-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-eureka-7000/microservice-spring-cloud-eureka-7000.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-eureka-7000/microservice-spring-cloud-eureka-7000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-eureka-7001/microservice-spring-cloud-eureka-7001.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-eureka-7001/microservice-spring-cloud-eureka-7001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-eureka-7002/microservice-spring-cloud-eureka-7002.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-eureka-7002/microservice-spring-cloud-eureka-7002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-eureka-client-7000/microservice-spring-cloud-eureka-client-7000.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-eureka-client-7000/microservice-spring-cloud-eureka-client-7000.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-gateway-zuul-9527/microservice-spring-cloud-gateway-zuul-9527.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-gateway-zuul-9527/microservice-spring-cloud-gateway-zuul-9527.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-provider-member-8001/microservice-spring-cloud-provider-member-8001.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-provider-member-8001/microservice-spring-cloud-provider-member-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-provider-member-8002/microservice-spring-cloud-provider-member-8002.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-provider-member-8002/microservice-spring-cloud-provider-member-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-provider-member-8003/microservice-spring-cloud-provider-member-8003.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-provider-member-8003/microservice-spring-cloud-provider-member-8003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-provider-member-client-8001/microservice-spring-cloud-provider-member-client-8001.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-provider-member-client-8001/microservice-spring-cloud-provider-member-client-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-spring-cloud-provider-member-hystrix-8001/microservice-spring-cloud-provider-member-hystrix-8001.iml" filepath="$PROJECT_DIR$/microservice-spring-cloud-provider-member-hystrix-8001/microservice-spring-cloud-provider-member-hystrix-8001.iml" />
+    </modules>
+  </component>
+</project>

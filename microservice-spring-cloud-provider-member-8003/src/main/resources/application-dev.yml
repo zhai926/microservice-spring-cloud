@@ -1,0 +1,43 @@
+server:
+  port: 8003
+  tomcat:
+    uri-encoding: utf-8
+  context-path: /
+  #上传文件路径 建议文件夹名称叫做image 或 img 下面资源映射会根据文件夹名称更改链接地址
+  uploadPath: E:\\Lehui\\filebase\\img
+  #上传文件地址
+  filebase: http://192.168.0.173:8787/img/
+spring:
+  resources:
+    static-locations: file:${server.uploadpath}
+  jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/springcloud3?characterEncoding=UTF-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    minIdle: 5
+    maxAction: 20
+    maxWaitMillis: 8000
+  application:
+    name: microservice-member   #  微服务暴露在外的名称
+eureka:
+  client:
+    serviceUrl:
+     # defaultZone: http://localhost:7000/eureka/   # 将 该模块注册到 eureka server 列表中
+#       defaultZone: http://eureka7000.com:7000/eureka/,http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/ # 设置 与 Eureka Server 交互地址
+       defaultZone: http://eureka7000.com:7000/eureka/    #由于内存限制 为了演示服务提供者集群 ，暂时不掩饰服务集群 设置 与 Eureka Server 交互地址
+
+  instance:
+    instance-id: microservice-member8003  # 自定义服务名称
+    prefer-ip-address: true  # 将 ip 注册到  eureka Server
+    metadata-map:
+       my-metadata: 我自定义的元数据
+info:
+  appName: microservice-spring-cloud
+  companyName: com.zhaihuilin
+  build.artifactId: $project.artifactId$
+  build.version : $project.version$

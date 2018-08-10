@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice-spring-cloud-api" />
+        <module name="microservice-spring-cloud-config-3344" />
+        <module name="microservice-spring-cloud-config-client-3355" />
+        <module name="microservice-spring-cloud-consumer-hystrix-dashboard" />
+        <module name="microservice-spring-cloud-consumer-member-80" />
+        <module name="microservice-spring-cloud-consumer-member-feign" />
+        <module name="microservice-spring-cloud-eureka-7000" />
+        <module name="microservice-spring-cloud-eureka-7001" />
+        <module name="microservice-spring-cloud-eureka-7002" />
+        <module name="microservice-spring-cloud-eureka-client-7000" />
+        <module name="microservice-spring-cloud-gateway-zuul-9527" />
+        <module name="microservice-spring-cloud-provider-member-8001" />
+        <module name="microservice-spring-cloud-provider-member-8002" />
+        <module name="microservice-spring-cloud-provider-member-8003" />
+        <module name="microservice-spring-cloud-provider-member-client-8001" />
+        <module name="microservice-spring-cloud-provider-member-hystrix-8001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-spring-cloud" target="1.8" />
+      <module name="microservice-spring-cloud-api" target="1.8" />
+      <module name="microservice-spring-cloud-config-3344" target="1.8" />
+      <module name="microservice-spring-cloud-config-client-3355" target="1.8" />
+      <module name="microservice-spring-cloud-consumer-hystrix-dashboard" target="1.8" />
+      <module name="microservice-spring-cloud-consumer-member-80" target="1.8" />
+      <module name="microservice-spring-cloud-consumer-member-feign" target="1.8" />
+      <module name="microservice-spring-cloud-eureka-7000" target="1.8" />
+      <module name="microservice-spring-cloud-eureka-7001" target="1.8" />
+      <module name="microservice-spring-cloud-eureka-7002" target="1.8" />
+      <module name="microservice-spring-cloud-eureka-client-7000" target="1.8" />
+      <module name="microservice-spring-cloud-gateway-zuul-9527" target="1.8" />
+      <module name="microservice-spring-cloud-provider-member-8001" target="1.8" />
+      <module name="microservice-spring-cloud-provider-member-8002" target="1.8" />
+      <module name="microservice-spring-cloud-provider-member-8003" target="1.8" />
+      <module name="microservice-spring-cloud-provider-member-client-8001" target="1.8" />
+      <module name="microservice-spring-cloud-provider-member-hystrix-8001" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

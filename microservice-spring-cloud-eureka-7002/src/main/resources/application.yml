@@ -1,0 +1,29 @@
+server:
+  port: 7002
+eureka:
+  instance:
+    hostname: eureka7002.com  # eureka 服务端的实例名称
+  client:
+    register-with-eureka: false     # 表示是否将自己注册 Eureka Server 默认为 ture
+    fetch-registry: false   # 表示是否从 Eureka Server 获取 注册信息 默认为 ture
+    service-url:
+      # defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/   # 设置 与 Eureka Server 交互地址
+        defaultZone: http://eureka7000.com:7000/eureka/,http://eureka7001.com:7001/eureka/   # 设置 与 Eureka Server 交互地址
+  server:
+    enable-self-preservation: false    # 禁用自我保护模式
+
+spring:
+  resources:
+    static-locations: file:${server.uploadpath}
+  jpa:
+      show-sql: true
+      hibernate:
+        ddl-auto: update
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=UTF-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    minIdle: 2
+    maxAction: 20
+    maxWaitMillis: 8000
